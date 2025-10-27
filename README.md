@@ -35,6 +35,11 @@ Players can save up to **500 savelocs per player**, teleport back to them, and u
   - **Teleport** → teleport to your current saveloc
   - **Previous / Next** → cycle through saved slots and teleport
 
+### Keybind (Hold/Release)
+- `+sm_teleport`  
+  Teleports you to your current saveloc and **freezes** you in place until you let go of the key it is bound to.
+  For example, bind mouse4 to "+sm_teleport", when you hold mouse4, it will teleport and freeze until you let go of the bind.
+  
 - `sm_saveloc`  
   Saves your current location into the next available slot.  
   If you already have 500 slots, the oldest one is removed.
@@ -45,15 +50,4 @@ Players can save up to **500 savelocs per player**, teleport back to them, and u
   Example: `/tele 7` → teleports to slot 7.
 
 - `sm_tele`  
-  Teleports you to your currently selected slot (the one you last saved or cycled to).
-
-### Keybind (Hold/Release)
-- `+sm_teleport`  
-  Teleports you to your current saveloc and **freezes** you in place.
-
-- `-sm_teleport`  
-  **Unfreezes** you and restores your saved velocity, allowing you to continue movement seamlessly.
-
-Bind these in your client config:
-```cfg
-bind "mouse5" "+sm_teleport"
+  Instantly teleports you to your currently selected slot (the one you last saved or cycled to).
