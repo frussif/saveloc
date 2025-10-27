@@ -1,4 +1,4 @@
-**description = "Multi-slot saveloc system with HUD, instant menu teleport, and true hold/release bind"**
+"Multi-slot saveloc system with HUD, instant menu teleport, and true hold/release bind"**
 
 A SourceMod plugin for movement practice servers (surf, bhop, KZ, etc.).  
 Players can save up to **500 savelocs per player**, teleport back to them, and use either a menu or a keybind for advanced control.
