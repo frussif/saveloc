@@ -3,6 +3,12 @@
 A SourceMod plugin for movement practice servers (surf, bhop, KZ, etc.).  
 Players can save up to **500 savelocs per player**, teleport back to them, and use either a menu or a keybind for advanced control.
 
+- Download latest compiled version [here](https://github.com/frussif/saveloc/raw/main/saveloc.smx)
+
+- FAQ
+  
+  Q: Is it AI SLOP? A: Yes
+  
 ---
 
 ## ✨ Features
